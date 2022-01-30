@@ -1,0 +1,43 @@
+.landingPage-bg{
+    background: #69a949;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frog-image{
+    height: 500px;
+    width: 500px;
+}
+
+.heading-lp{
+    padding-top: 3%;
+    font-size: 50px;
+    font-weight: 700;
+    color: #e61360;
+}
+.subheading-lp{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    color: white;
+}
+.view-template{
+    font-size: 25px;
+    background-color: #284718;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.view-template:hover{
+    background-color: #3a6424;
+}
