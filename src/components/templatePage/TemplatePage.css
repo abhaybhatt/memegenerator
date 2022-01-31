@@ -1,0 +1,127 @@
+.loading-template{
+    background: #69a949;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.frog-loader{
+    height: 300px;
+    width: 300px;
+}
+
+.loader-text{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    color:  white;
+    padding-top: 2%;
+}
+.templatePage-bg{
+    background: #69a949;
+    width: 100%;
+    height: 100%;
+}
+.templatePage-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+.templateNames{
+    overflow-y: scroll;
+    max-height: 80vh;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    opacity: 0.6;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.templatename{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.templatename:hover{
+    background-color: rgb(176, 216, 179);
+}
+/* .template-container{
+    display: flex;
+    padding: 3%;
+} */
+
+
+@media screen and (min-width: 1301px) {
+    .template-container {
+        display: flex;
+        padding: 3%;
+        justify-content: space-around;
+    }
+    .selectedTemplateImage{
+        max-width: 100%;
+        height: 700px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 1300px) {
+    .template-container {
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+    }
+    .selectedTemplateImage{
+        width: 60%;
+        height: 60%;
+    }
+  }
+.templateImage-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-button{
+    font-size: 25px;
+    background-color: #284718;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4%;
+}
+
+.enter-humour{
+    font-size: 20px;
+    background-color: white;
+    color: #284718;
+    font-weight: 700;
+    border: none;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 4%;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
