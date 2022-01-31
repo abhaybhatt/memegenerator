@@ -19,6 +19,10 @@ const EditPage = ({selectedTemplate}) => {
     const openTemplatePage = () => {
         navigate('/templates');
     }
+    const ShareToFaceBook =() =>{
+        let shareUrl = `http://www.facebook.com/sharer/sharer.phpu=${meme.url}`;
+        window.open(shareUrl,"NewWindow");  
+       }
 
     const getMeme = async() => {
         const formdata = new FormData()
@@ -94,7 +98,7 @@ const EditPage = ({selectedTemplate}) => {
                 <div>
                     <button style={{marginTop: '5%', marginLeft: '5%'}} className='view-template' onClick={() => downloadImage()}>DownLoad</button>
                     <button style={{marginTop: '5%', marginLeft: '5%'}} className='view-template' onClick={() => openTemplatePage()}>Try Different Templates</button>
-                    <button style={{marginTop: '5%', marginLeft: '5%'}} className='view-template' onClick={() => openTemplatePage()}>Share on Social Media</button>
+                    <button style={{marginTop: '5%', marginLeft: '5%'}} className='view-template' onClick={() => ShareToFaceBook()}>Share on Social Media</button>
                 </div>
             </div>
         </div>
