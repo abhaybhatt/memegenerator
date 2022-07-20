@@ -38,7 +38,6 @@ const TemplatePage = ({templates, setTemplates, selectedTemplate, setSelectedTem
             setText(tempArr)
         }
     }, [selectedTemplate])
-    
 
     const fetchTemplates = async() => {
         await(fetch('https://api.imgflip.com/get_memes').then(res => {

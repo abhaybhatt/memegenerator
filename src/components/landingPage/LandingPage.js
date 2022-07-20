@@ -10,9 +10,9 @@ const LandingPage = () => {
     }
     return(
         <div className='landingPage-bg'>
-            <img src={frog} alt='frog' className='frog-image' />
             <div className='heading-lp'>Meme Generator</div>
-            <div className='subheading-lp'>made with love by Abhay Bhatt <span role="img" aria-label="sheep"> ❤️</span></div>
+            {/* <div className='subheading-lp'>made with love by Abhay Bhatt <span role="img" aria-label="sheep"> ❤️</span></div> */}
+            <img src={frog} alt='frog' className='frog-image' />
             <button className='view-template' onClick={() => openTemplatePage()}>View Templates</button>
         </div>
     )
