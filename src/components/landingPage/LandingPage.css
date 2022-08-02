@@ -68,10 +68,11 @@
     font-size: larger;
     border: none;
     background-color: rgb(247, 164, 120);
-    box-shadow: 2px 2px 5px rgb(245, 119, 8); 
+    box-shadow: 2px 2px 4px rgb(245, 119, 8); 
 }
 .view-template:hover{
     cursor: pointer;
+    background-color: white;
 }
 
 
