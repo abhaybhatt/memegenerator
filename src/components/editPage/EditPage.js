@@ -75,14 +75,17 @@ const EditPage = ({selectedTemplate}) => {
                 <div className='templateImage-container'>
                     <img className='selectedTemplateImage' src={selectedTemplate.url} alt='meme'/>
                 </div>
-                <div>
+                <div >
                 <div className='input-container'>
                     {text && text.map((t, i) => (
                         <input onChange={(e)=> setTextContect(e,i)} value={text[i]} placeholder='Enter humour' className='enter-humour' />
                     ))}
                 </div>
+                <div>
                 <button style={{marginTop: '5%'}} className='view-template' onClick={() => getMeme()}>Create</button>
-                <button style={{marginTop: '5%', marginLeft: '5%'}} className='view-template' onClick={() => openTemplatePage()}>Select Different Template</button>
+                <button style={{marginTop: '5%', marginLeft: '3%'}} className='view-template' onClick={() => openTemplatePage()}>Select Different Template</button>
+                </div>
+               
                 </div>
             </div>
         </div>

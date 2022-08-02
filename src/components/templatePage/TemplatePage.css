@@ -1,5 +1,5 @@
 .loading-template{
-    background: #69a949;
+    background: linear-gradient(to bottom right, #6db081, #fcf67c);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -8,26 +8,26 @@
     align-items: center;
 }
 .frog-loader{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
 }
-
 .loader-text{
-    color: white;
     font-size: 40px;
     font-weight: 700;
-    color:  white;
+    color:  black;
     padding-top: 2%;
 }
 .templatePage-bg{
-    background: #69a949;
+    background: linear-gradient(to bottom right, #6db081, #fcf67c);
     width: 100%;
     height: 100%;
 }
 .templatePage-heading{
-    font-size: 40px;
+    font-size: 42px;
+    font-style: italic;
     font-weight: 700;
-    color: white;
+    text-shadow: 2px 2px lightgrey;
+    color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -42,7 +42,8 @@
     opacity: 0.6;
     width: fit-content;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    cursor: pointer;
 }
 
 .templatename{
@@ -53,12 +54,8 @@
 }
 .templatename:hover{
     background-color: rgb(176, 216, 179);
+   
 }
-/* .template-container{
-    display: flex;
-    padding: 3%;
-} */
-
 
 @media screen and (min-width: 1301px) {
     .template-container {
@@ -94,16 +91,22 @@
     font-size: 25px;
     background-color: #284718;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     border: none;
     padding-top: 10px;
     padding-bottom:10px;
     padding-right: 10px;
     padding-left: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     width: 50%;
     margin-top: 4%;
+    box-shadow: 3px 3px yellowgreen;
+}
+.edit-button:hover{
+    background-color: white;
+    color: #284718;
+    transition: 0.5s all ;
 }
 
 .enter-humour{
